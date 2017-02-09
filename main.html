@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TTT</title>
+	<title>TCG</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="test.css">
 </head>
-<body>
+<body onload="welcome()">
 <div>
 	<img src="img/blank.jpg" id="1" onclick="change(1)">
 	<img src="img/blank.jpg" id="2" onclick="change(2)">
@@ -22,9 +23,26 @@
 	<img src="img/blank.jpg" id="8" onclick="change(8)">
 	<img src="img/blank.jpg" id="9" onclick="change(9)">
 </div>
-
+<br><br>
+<button type="button" onclick="newgame()">New Game</button>
+<p id="info">ALL THE BEST!</p>
 <p id="result">ALL THE BEST!</p>
 
-<script type="text/javascript" src="js.js"></script>
+<div class="container">
+<div class="row">
+	<div class="col-4" id="player1">P-1</div>
+	<div class="col-4" id="player2">P-2</div>
+	<div class="col-4">Draw</div>
+</div>
+
+<div class="row">
+	<div class="col-4" id="p1r">0</div>
+	<div class="col-4" id="p2r">0</div>
+	<div class="col-4" id="dr">0</div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="javas.js"></script>
 </body>
 </html>
