@@ -1,11 +1,27 @@
 *{
 	text-align: center;
+	text-transform: uppercase;
+	font-family: "comic sans ms","arial",sans-serif;
+}
+
+.container{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+}
+
+.col-4{
+	width: 33.33%;
+	overflow: hidden;
+	border: 1px solid #ff712d;
+	padding: 2px;
 }
 
 img{
 	width: 100px;
 	height: 100px;
-}
-p{
-	font-size: 4em;
 }
