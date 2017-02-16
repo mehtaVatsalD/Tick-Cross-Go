@@ -1,6 +1,6 @@
 var cnt=0,flag=[0,0,0,0,0,0,0,0,0],narmad=0;
 
-function change(no)
+function change1(no)
 {	
 	if(narmad==0)
 	{
